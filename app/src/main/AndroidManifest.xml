@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.benny.openlauncher">
+    package="com.benny.zlauncher">
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -14,7 +14,7 @@
 
     <application
         android:resizeableActivity="false"
-        android:name="com.benny.openlauncher.AppObject"
+        android:name="com.benny.zlauncher.AppObject"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -29,7 +29,7 @@
             android:value="2.1" />
 
         <activity
-            android:name="com.benny.openlauncher.activity.OnBoardActivity"
+            android:name="com.benny.zlauncher.activity.OnBoardActivity"
             android:clearTaskOnLaunch="true"
             android:label="@string/app_name"
             android:theme="@style/IntroTheme">
@@ -39,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.benny.openlauncher.activity.HomeActivity"
+            android:name="com.benny.zlauncher.activity.HomeActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
@@ -54,29 +54,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.benny.openlauncher.activity.AutoFinishActivity"
+            android:name="com.benny.zlauncher.activity.AutoFinishActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
         <activity
-            android:name="com.benny.openlauncher.activity.MinibarEditActivity"
+            android:name="com.benny.zlauncher.activity.MinibarEditActivity"
             android:label="@string/minibar"
-            android:parentActivityName="com.benny.openlauncher.activity.HomeActivity"
+            android:parentActivityName="com.benny.zlauncher.activity.HomeActivity"
             android:theme="@style/NormalActivity.Light" />
         <activity
-            android:name="com.benny.openlauncher.activity.SettingsActivity"
+            android:name="com.benny.zlauncher.activity.SettingsActivity"
             android:configChanges="orientation|keyboard|screenSize"
             android:label="@string/pref_title__settings"
             android:theme="@style/NormalActivity.Light" />
         <activity
-            android:name="com.benny.openlauncher.activity.HideAppsActivity"
+            android:name="com.benny.zlauncher.activity.HideAppsActivity"
             android:label="@string/app_name"
             android:theme="@style/NormalActivity.Light" />
         <activity
-            android:name="com.benny.openlauncher.activity.MoreInfoActivity"
-            android:parentActivityName="com.benny.openlauncher.activity.SettingsActivity"
+            android:name="com.benny.zlauncher.activity.MoreInfoActivity"
+            android:parentActivityName="com.benny.zlauncher.activity.SettingsActivity"
             android:theme="@style/NormalActivity.Light">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.benny.openlauncher.activity.SettingsActivity" />
+                android:value="com.benny.zlauncher.activity.SettingsActivity" />
         </activity>
         <activity
             android:name="com.nononsenseapps.filepicker.FilePickerActivity"
@@ -88,7 +88,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.benny.openlauncher.activity.AddShortcutActivity"
+            android:name="com.benny.zlauncher.activity.AddShortcutActivity"
             android:autoRemoveFromRecents="true"
             android:excludeFromRecents="true"
             android:label="@string/app_name"
@@ -99,7 +99,7 @@
         </activity>
 
         <receiver
-            android:name="com.benny.openlauncher.receivers.DeviceAdminReceiver"
+            android:name="com.benny.zlauncher.receivers.DeviceAdminReceiver"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
             <intent-filter>
                 <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
@@ -109,7 +109,7 @@
                 android:resource="@xml/device_admin" />
         </receiver>
         <receiver
-            android:name="com.benny.openlauncher.receivers.ShortcutReceiver"
+            android:name="com.benny.zlauncher.receivers.ShortcutReceiver"
             android:permission="com.android.launcher.permission.INSTALL_SHORTCUT">
             <intent-filter>
                 <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
@@ -117,7 +117,7 @@
         </receiver>
 
         <service
-            android:name="com.benny.openlauncher.notifications.NotificationListener"
+            android:name="com.benny.zlauncher.notifications.NotificationListener"
             android:label="@string/icon_badge_service_title"
             android:enabled="true"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">

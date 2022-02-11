@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import com.flask.colorpicker.builder.ColorPickerClickListener;
 import com.flask.colorpicker.builder.ColorPickerDialogBuilder;
 
-import com.benny.openlauncher.R;
+import com.benny.zlauncher.R;
 
 public class ColorPickerPreference extends Preference {
 

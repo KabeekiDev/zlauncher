@@ -1,7 +1,9 @@
 
 ### Description
 
-This is still a WIP please don't use. Could be buggy.
+First release available now, head over to releases to find it.
+
+I intend to release this on the play store soon, I need to contact the developers of openlaucher first though so stay tuned!
 
 ### Features
 

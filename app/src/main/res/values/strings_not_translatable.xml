@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_license_name" translatable="false">Apache 2.0</string>
-    <string name="app_community_url" translatable="false">https://matrix.to/#/#openlauncher:matrix.org</string>
-    <string name="app_bug_report_url" translatable="false">https://github.com/openlauncherteam/openlauncher/issues</string>
+    <string name="app_community_url" translatable="false">https://github.com/KabeekiDev/zlauncher</string>
+    <string name="app_bug_report_url" translatable="false">https://github.com/KabeekiDev/zlauncher/issues</string>
     <string name="app_translate_url" translatable="false"><![CDATA[https://lonamiwebs.github.io/stringlate/translate?git=https%3A%2F%2Fgithub.com%2Fopenlauncherteam%2Fopenlauncher.git&mail=gro.xobliam@@rentnasg&name=OpenLauncher&web=https%3A%2F%2Fgithub.com%2Fopenlauncherteam%2Fopenlauncher]]></string>
-    <string name="app_web_url" translatable="false">https://github.com/openlauncherteam/openlauncher</string>
-    <string name="app_source_code_url" translatable="false">https://github.com/openlauncherteam/openlauncher</string>
-    <string name="app_donate_url" translatable="false"><![CDATA[https://gsantner.net/supportme/?project=openlauncher&source=inapp_supdon]]></string>
-    <string name="app_contribution_info_url" translatable="false">https://github.com/openlauncherteam/openlauncher/blob/master/README.md#contributions</string>
+    <string name="app_web_url" translatable="false">https://github.com/KabeekiDev/zlauncher</string>
+    <string name="app_source_code_url" translatable="false">https://github.com/KabeekiDev/zlauncher</string>
+    <string name="app_donate_url" translatable="false"><![CDATA[https://ko-fi.com/kabeeki]]></string>
+    <string name="app_contribution_info_url" translatable="false">https://github.com/KabeekiDev/zlauncher</string>
 
     <string name="pref_default__date_bar_date_format_custom_1" translatable="false"><![CDATA[EEEE\', \'dd\'.\']]></string>
     <string name="pref_default__date_bar_date_format_custom_2" translatable="false"><![CDATA[MMMM yyyy\', KW \'ww]]></string>
